@@ -1,0 +1,506 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #000;
+
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* Firefox */
+    -webkit-box-sizing: border-box;
+    /* Safari */
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+
+header {
+    width: 100%;
+    display: inline-block;
+    z-index: 50;
+    position: fixed;
+    background-color: #F5F0F6;
+    color: #0a3905;
+    align-items: center;
+}
+
+header section {
+
+    max-width: 96%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+header section>* {
+    vertical-align: middle;
+}
+
+
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0a3905;
+    vertical-align: top;
+    margin-left: 10px;
+
+}
+
+nav a:hover {
+    color: black;
+}
+
+section h2 {
+    margin-top: 100px;
+}
+
+#p1 h1 {
+    font-weight: 400;
+    text-align: left;
+    z-index: 20;
+    margin: 10% 0% 0% 2%;
+    font-size: 50px;
+    color: #0a3905;
+
+}
+
+#p1 h2 {
+    max-width: 40%;
+    text-align: center;
+    z-index: 20;
+    margin: 8% 0% 0% 2%;
+    font-size: 100px;
+    color: #0a3905;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+#p1 h3 {
+    font-size: 30px;
+    color: #0a3905;
+    margin-left: 8%;
+
+
+}
+
+#p1 button {
+    width: 310px;
+    height: 60px;
+    background-color: #266c1e;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    border: solid .5px lightgrey;
+    border-radius: 4px;
+    margin: 2% 0 0 15%;
+    transition-duration: 0.4s;
+}
+
+
+main section {
+    display: inline-block;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#p1 section {
+    background: url("./images/koala.jpg");
+    background-size: cover;
+}
+
+
+
+#p2 section {
+    background-image: url("./images/sky.jpeg");
+    background-repeat: repeat-x;
+    text-align: center;
+
+}
+
+#p2 article {
+    width: 70%;
+    text-align: center;
+
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+
+}
+
+#p2 p {
+    margin-top: 7%;
+    text-align: justify;
+}
+
+
+h2 {
+    text-align: center;
+    z-index: 20;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 7%;
+
+}
+
+figure {
+    display: inline-block;
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+p {
+    line-height: 1.7;
+
+}
+
+
+
+#p3 section {
+    background-color: white;
+    text-align: center;
+    min-height: auto;
+    height: 100%;
+}
+
+#p3 section section {
+    max-width: 70%;
+    margin-top: 2%;
+
+}
+
+#p3 article {
+
+    vertical-align: top;
+    width: 95%;
+    display: inline-block;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    text-align: justify;
+
+}
+
+#p3 section section section {
+    width: 45%;
+    height: 100%;
+    vertical-align: top;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+form {
+    background-color: whitesmoke;
+}
+
+#p3 form {
+
+    width: 100%;
+    min-width: 300px;
+    height: 450px;
+    margin-right: 5%;
+    border: solid .1px black;
+    box-sizing: border-box;
+
+}
+
+#p3 h3 {
+    font-size: 20px;
+    color: #0a3905;
+}
+
+header3 {
+    display: inline-block;
+    width: 100%;
+    min-width: 300px;
+    height: 60px;
+    background-color: #2E7C26;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+form section {
+    width: 90px !important;
+    height: 60px !important;
+    background-color: white;
+    display: inline-block;
+    border: solid .5px lightgrey;
+    border-radius: 5px;
+    margin-left: 10px !important;
+    margin-top: 20px !important;
+    font-size: large;
+    color: #0a3905;
+    text-align: center;
+    align-items: center;
+}
+
+form section section {
+    display: block;
+    margin-top: 20px;
+    height: auto !important;
+    border: none;
+    width: auto !important;
+}
+
+input {
+    width: 310px;
+    height: 60px;
+    display: inline-block;
+    border: solid .5px lightgrey;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+::placeholder {
+    font-size: large;
+    color: #0a3905;
+}
+
+button {
+    width: 310px;
+    min-width: 100px;
+    height: 60px;
+    background-color: #266c1e;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    border: solid .5px lightgrey;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #0f366c;
+    color: white;
+}
+
+
+#p4 section {
+    background-color: #eaf2eb;
+    text-align: center;
+    min-height: auto;
+    height: 100%;
+}
+
+#p4 section section {
+    max-width: 70%;
+    margin-top: 2%;
+}
+
+#p4 section section section {
+    width: 45%;
+    height: 100%;
+    vertical-align: top;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+#p4 h3 {
+    font-size: 20px;
+    color: #0a3905
+}
+
+
+#p4 form {
+    width: 600px;
+    height: 600px;
+    margin-right: 5%;
+    border: solid .1px lightgrey;
+    box-sizing: border-box;
+
+}
+
+
+label {
+    height: 30px;
+    width: 95%;
+    float: left;
+    margin-left: 5%;
+
+}
+
+labelinput {
+    text-align: left;
+    border-radius: 4px;
+
+}
+
+
+#p4 input {
+    height: 50px;
+    width: 95%;
+    margin: 0;
+}
+
+#p4 textarea {
+    width: 95%;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    section {
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    header section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin: 5px;
+
+    }
+
+    section h2 {
+        margin-top: 80px;
+    }
+
+    #p1 h1 {
+        font-size: 30px;
+    }
+
+    #p1 h2 {
+        max-width: 100%;
+        font-size: 70px !important;
+        color: white !important;
+        line-height: 1.1;
+        margin-top: 40%;
+
+    }
+
+
+    #p1 h3 {
+        font-size: 25px;
+        color: #0a3905;
+        margin-left: 10%;
+    }
+
+    #p2 article {
+        width: 96%;
+    }
+
+    figure {
+        width: 70%;
+    }
+
+    #p1 h2 {
+        text-align: center;
+        z-index: 20;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        margin: 8% 8% 10% 8%;
+
+    }
+
+    #p1 button {
+        margin: 10% 8% 0 8%;
+    }
+
+
+
+    form {
+        width: 100%;
+        height: auto;
+        margin-right: 0%;
+
+    }
+
+    input {
+        width: 80%;
+    }
+
+
+
+    article {
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    #p3 section section {
+        max-width: 96%;
+    }
+
+    #p4 section section {
+        max-width: 96%;
+    }
+
+    #p3 section section section {
+        max-width: 96%;
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #p3 form {
+        width: 100%;
+        height: auto;
+    }
+
+    #p4 section section section {
+        max-width: 96%;
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #p4 form {
+        width: 100%;
+        height: auto;
+    }
+
+    form section {
+        margin-left: 0px !important;
+    }
+}
